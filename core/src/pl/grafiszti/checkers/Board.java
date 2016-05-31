@@ -19,7 +19,7 @@ public class Board {
         this.lightInternal = new Texture("light_internal.png");
     }
 
-    public void draw(CustomSpriteBatch batch) {
+    public void render(CustomSpriteBatch batch) {
         drawCorners(batch);
         drawEdges(batch);
         drawInternal(batch);
