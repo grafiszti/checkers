@@ -7,13 +7,11 @@ import com.badlogic.gdx.graphics.Texture;
 
 public class CheckersMain extends ApplicationAdapter {
     CustomSpriteBatch batch;
-    Texture img;
     Board board;
 
     @Override
     public void create() {
         batch = new CustomSpriteBatch();
-        img = new Texture("black_player.png");
         board = new Board();
     }
 
